@@ -1,0 +1,15 @@
+{
+  "name": "svgs2pngs",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "type": "module",
+  "bin": {
+    "svg-to-png": "cli.js"
+  },
+  "dependencies": {
+    "globby": "^13.1.1",
+    "meow": "^10.1.2",
+    "sharp": "^0.30.3"
+  }
+}
